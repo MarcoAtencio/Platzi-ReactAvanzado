@@ -1,0 +1,49 @@
+{
+  "name": "curso-platzi-react-avanzado",
+  "version": "1.0.0",
+  "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+  },
+  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "standard": "^16.0.3",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "/api/**"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
